@@ -224,6 +224,179 @@ video{
 
 }
 
-/* Vai corinthians pq vai corinthians  */
+
+.esportes{
+    display: flexbox;
+    
+   
+    p{
+    text-align: justify;
+    font-weight: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    }
+    h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    }
+    
+    h2{
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        }
+    
+    
+    img{
+        justify-content: center;
+        border-radius: 8px 8px 8px 8px;
+        width: 25%;
+        margin-left: 700px;
+        
+    } 
+    
+    .links{
+        line-height: 170%;
+        color: black;
+        text-align: end;
+        margin-left: 500px;
+        text-align: CENTER;
+        
+    }
+    iframe{
+        justify-content: center;
+    }
+
+}
+.lista-prefeitos{
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+}
+
+
+
+/* Sobre a população */
+.info-limeira {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    .links{
+        color: black;
+    }
+}
+
+.info {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.info p {
+    margin: 10px 0 0;
+}
+.tito{
+    h2{
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        text-decoration: underline;
+        }
+}
+
+
+
+/* responsivel */
+
+
+@media screen and (max-width: 600px) {
+    /* Ajuste de largura para garantir que os elementos se estiquem corretamente */
+    nav, article, main, footer {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Ajuste para o nav - centralização e adaptação da imagem */
+    nav {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav span {
+        display: block;
+        margin-bottom: 5px; /* espaçamento entre os elementos */
+    }
+
+    nav img {
+        width: 60%; /* Aumentando um pouco a largura da imagem para visibilidade */
+        margin: 10px auto;
+    }
+
+    /* Ajustes para o conteúdo dos artigos e main */
+    article, main {
+        padding: 0 10px; /* mais responsivo com margens iguais nas laterais */
+    }
+
+    /* Para imagens dentro de .imagens */
+    .imagens {
+        display: block;
+        text-align: center;
+    }
+
+    .imagens img {
+        width: 100%; /* A imagem ocupa toda a largura disponível */
+        max-width: 100%; /* Impede que a imagem ultrapasse o contêiner */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
+    /* Ajuste para os cards */
+    .home {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .home .card {
+        width: 100%; /* Faz com que os cards ocupem toda a largura disponível */
+        margin-bottom: 10px; /* Espaçamento entre os cards */
+    }
+
+    /* Para os serviços */
+    .cards_servicos {
+        display: block;
+        height: auto;
+        margin-bottom: 10px; /* Espaço entre os elementos */
+    }
+
+    /* Ajuste para o footer */
+    footer {
+        padding: 10px;
+        text-align: center; /* Para centralizar o conteúdo no rodapé */
+    }
+
+
+    /* Ajustes para o iframe */
+    iframe {
+        width: 100%; /* Faz o iframe ocupar toda a largura disponível */
+        height: 30vh; /* Manter a altura proporcional ao tamanho da tela */
+        margin-bottom: 10px; /* Espaçamento abaixo do iframe */
+    }
+}
+
 
 
